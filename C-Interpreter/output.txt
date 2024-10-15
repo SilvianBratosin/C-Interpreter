@@ -1,0 +1,105 @@
+a= 20;
+write a;
+D=90u;
+write D;
+
+a=045;
+write a;	//37
+a=0xA5;
+write a;	//167
+a=0Xa5;
+write a;	//167
+
+//coment pe o linie
+
+/* coment pe mai multe
+linii
+de testat!!!
+*/
+
+a=67u;
+b=7U;
+write a+b;
+a=67l;
+b=-7L;
+write a+b;
+a=67ul;
+b=7UL;
+write a+b;
+
+{
+a=5;
+a++;
+write a;
+}
+
+a=5;
+--a;
+write a;
+
+a=5;
+b=a++;
+write a;
+write b;
+
+a=5;
+b=++a;
+write a;
+write b;
+
+A=6;
+A/=2;
+write A;
+
+A=6;
+A*=2;
+write A;
+
+a=5;
+b=2*5;
+if(a<b)
+	write a;
+else 
+	write b;
+
+if(a<b){
+	a++;
+	write a;
+}
+else {
+	++b;
+	write b;
+}
+
+
+while(a>0){
+a=a-1;
+write a;}
+
+for(i=0;i<10;i++){
+write i+2;}
+
+a=100;
+write a;
+{a=20; a=a-100; write a;
+}
+
+
+a=10; b=20;
+if (a>0)
+	if (b>0){
+		write a;
+		write b;
+	}
+
+if (a<0)
+			write b;
+else 
+	if (b>0)
+		write a;
+
+if (a<0)
+			write b;
+else 
+	if (b>0)
+		write a;
